@@ -11,6 +11,6 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-## <img src="https://media3.giphy.com/media/IflNFS33ulVXQHvhXn/giphy.gif?cid=ecf05e47oagaa338p3dpbhcexzzk1zb3i4bdo2gpl3ble0ox&rid=giphy.gif&ct=s" width ="25"> Links
+## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTQ5NDRlMWQwMjI3NmU5NzA3NDM2YWVhZmEwMjE2NGRkY2NiYmI4YSZjdD1z/AEMgXCqNwfxvbNWVCt/giphy.gif" width ="25"> Links
 
 [![Portfolio](https://img.shields.io/badge/MY%20PORTFOLIO-black?)](https://github.com/Cepa95?tab=repositories)
