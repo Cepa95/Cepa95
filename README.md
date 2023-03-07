@@ -14,3 +14,6 @@
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTQ5NDRlMWQwMjI3NmU5NzA3NDM2YWVhZmEwMjE2NGRkY2NiYmI4YSZjdD1z/AEMgXCqNwfxvbNWVCt/giphy.gif" width ="25"> Links
 
 [![Portfolio](https://img.shields.io/badge/MY%20PORTFOLIO-black?)](https://github.com/Cepa95?tab=repositories)
+
+## Snake eating my contributions
+![snake gif](https://github.com/Cepa95/Cepa95/blob/output/github-contribution-grid-snake.gif)
