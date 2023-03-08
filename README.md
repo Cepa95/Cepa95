@@ -17,5 +17,5 @@
 
 [![Portfolio](https://img.shields.io/badge/MY%20PORTFOLIO-black?)](https://github.com/Cepa95?tab=repositories)
 
-## <img src="https://giphy.com/stickers/HawkeLife-hawkeoptics-hawke-optics-life-mVpTVJBUKjkeuPQDzz" width ="25">Snake eating my contributions
+## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2IyNGZiM2Y1MmMyYjBjODM3YTVmMjJlN2Y1ZWNlNzMwMDUwMzUwZCZjdD1z/TJGEDDEfnFdsOklnZe/giphy.gif" width ="20" height="18" >Snake eating my contributions
 ![snake gif](https://github.com/Cepa95/Cepa95/blob/output/github-contribution-grid-snake.gif)
