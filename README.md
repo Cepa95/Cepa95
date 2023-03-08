@@ -1,5 +1,9 @@
 # Hi there, I'm Josip! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Hubot+Sans&pause=1000&color=8AC926&width=435&lines=Random+programming+joke;Refresh+for+another+one)](https://git.io/typing-svg)  
+<img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
+
+
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> Skills
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/c++%20-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -19,3 +23,4 @@
 
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2IyNGZiM2Y1MmMyYjBjODM3YTVmMjJlN2Y1ZWNlNzMwMDUwMzUwZCZjdD1z/TJGEDDEfnFdsOklnZe/giphy.gif" width ="20" height="18" >Snake eating my contributions
 ![snake gif](https://github.com/Cepa95/Cepa95/blob/output/github-contribution-grid-snake.gif)
+
