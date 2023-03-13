@@ -23,8 +23,6 @@
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Cepa95)
-
 
 
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTQ5NDRlMWQwMjI3NmU5NzA3NDM2YWVhZmEwMjE2NGRkY2NiYmI4YSZjdD1z/AEMgXCqNwfxvbNWVCt/giphy.gif" width ="25"> Links
