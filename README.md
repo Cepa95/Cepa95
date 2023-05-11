@@ -3,12 +3,47 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Hubot+Sans&pause=1000&color=8AC926&width=435&lines=Random+programming+joke;Refresh+for+another+one)](https://git.io/typing-svg)  
 <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
 ## <img src="https://media3.giphy.com/media/XhiNOBobxFSP8YSgXK/giphy.gif?cid=ecf05e47umc1i85iaw7qiysiaga0rww981haxcdznuhoez3j&rid=giphy.gif&ct=s" width ="25"> About me
-  - I am currently in my second year of studying programming at the University of Split and have gained valuable experience in various technologies such as C, C++, Python, HTML, CSS and JavaScript.
-  - I'm passionate about learning new programming languages and exploring different areas of computer science.
-  - In addition to my technical skills, I bring a unique perspective to programming thanks to my background in philosophy and history.
-  - I firmly believe that technology and the humanities should intersect and I am intrigued by how programming can address social and cultural challenges.
-  - In my free time, I enjoy reading books on various topics and indulging in creative hobbies.
-  - With my master's degree in philosophy and history and my proficiency in programming languages such as C, C++, HTML, CSS, JavaScript, and Python, I am confident that I can bring a multidimensional approach to any programming project.  
+```
+const AboutMe = {
+  name: "Josip",
+  education: {
+    university: "University of Split",
+    degree: "Master's degree in Philosophy and History",
+    year: "2nd year",
+  },
+  programmingSkills: ["C", "C++", "Python", "HTML", "CSS", "JavaScript"],
+  passion:
+    "exploring different areas of computer science and learning new programming languages",
+  interdisciplinaryApproach: true,
+  interests: ["Technology", "Humanities", "Social and cultural challenges"],
+  hobbies: ["Reading", "Creative hobbies"],
+  proficiency: {
+    languages: ["C", "C++", "JavaScript", "Python"],
+    scriptingLanguages: ["HTML", "CSS"],
+    level: "intermediate",
+  },
+};
+
+function generateProfile() {
+  let profile = `Hello, world! 👋\n\n`;
+  profile += `My name is ${AboutMe.name}, and I'm currently in my ${AboutMe.education.year} of studying programming at the ${AboutMe.education.university}.\n`;
+  profile += `I'm passionate about ${AboutMe.passion}.\n`;
+  profile += `With my background in ${AboutMe.education.degree}, I bring a unique perspective to programming, emphasizing the intersection between technology and the humanities.\n\n`;
+  profile += `Programming skills:\n`;
+  AboutMe.programmingSkills.forEach((skill) => {
+    profile += `- ${skill}\n`;
+  });
+  profile += `\nProficiency level: ${AboutMe.proficiency.level}\n\n`;
+  profile += `Interests:\n`;
+  profile += AboutMe.interests.map((interest) => `- ${interest}`).join("\n");
+  profile += `\n\nFeel free to reach out to me if you want to collaborate on any exciting projects or discuss interesting ideas!\n\n`;
+  profile += `Thank you for visiting my profile. Have a great day! 😄`;
+
+  return profile;
+}
+
+console.log(generateProfile());
+```
     
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> Skills
