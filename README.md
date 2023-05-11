@@ -21,7 +21,7 @@ const AboutMe = {
     languages: ["C", "C++", "JavaScript", "Python"],
     scriptingLanguages: ["HTML", "CSS"],
     level: "intermediate",
-  },
+  }
 };
 
 function generateProfile() {
@@ -35,7 +35,7 @@ function generateProfile() {
   });
   profile += `\nProficiency level: ${AboutMe.proficiency.level}\n\n`;
   profile += `Interests:\n`;
-  profile += AboutMe.interests.map((interest) => `- ${interest}`).join("\n");
+  profile += AboutMe.interests.map((interest) => `- ${interest}`).join(",\n");
   profile += `\n\nFeel free to reach out to me if you want to collaborate on any exciting projects or discuss interesting ideas!\n\n`;
   profile += `Thank you for visiting my profile. Have a great day! 😄`;
 
