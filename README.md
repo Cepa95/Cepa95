@@ -9,7 +9,7 @@ const AboutMe = {
   education: {
     university: "University of Split",
     degree: "Master's degree in Philosophy and History",
-    year: "2nd year",
+    year: "2nd year"
   },
   programmingSkills: ["C", "C++", "Python", "HTML", "CSS", "JavaScript"],
   passion:
@@ -20,7 +20,7 @@ const AboutMe = {
   proficiency: {
     languages: ["C", "C++", "JavaScript", "Python"],
     scriptingLanguages: ["HTML", "CSS"],
-    level: "intermediate",
+    level: "intermediate"
   }
 };
 
