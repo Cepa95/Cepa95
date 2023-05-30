@@ -51,6 +51,7 @@ console.log(generateProfile());
 ![C++](https://img.shields.io/badge/c++%20-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
@@ -64,6 +65,6 @@ console.log(generateProfile());
 [![Portfolio](https://img.shields.io/badge/MY%20PORTFOLIO-black?)](https://github.com/Cepa95?tab=repositories)
 
 
-## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2IyNGZiM2Y1MmMyYjBjODM3YTVmMjJlN2Y1ZWNlNzMwMDUwMzUwZCZjdD1z/TJGEDDEfnFdsOklnZe/giphy.gif" width ="20" height="20" >Oh no, snake is eating my contributions
+## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2IyNGZiM2Y1MmMyYjBjODM3YTVmMjJlN2Y1ZWNlNzMwMDUwMzUwZCZjdD1z/TJGEDDEfnFdsOklnZe/giphy.gif" width ="20" height="20" >Oh no, a snake is eating my contributions
 ![snake gif](https://github.com/Cepa95/Cepa95/blob/output/github-contribution-grid-snake.gif)
 
