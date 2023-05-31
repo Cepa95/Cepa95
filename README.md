@@ -9,7 +9,7 @@ const AboutMe = {
   education: {
     university: "University of Split",
     degree: "Master's degree in Philosophy and History",
-    year: "2nd year"
+    year: "3rd year"
   },
   programmingSkills: ["C", "C++", "Python", "HTML", "CSS", "JavaScript"],
   passion:
@@ -28,7 +28,7 @@ function generateProfile() {
   let profile = `Hello, world! 👋\n\n`;
   profile += `My name is ${AboutMe.name}, and I'm currently in my ${AboutMe.education.year} of studying programming at the ${AboutMe.education.university}.\n`;
   profile += `I'm passionate about ${AboutMe.passion}.\n`;
-  profile += `With my background in ${AboutMe.education.degree}, I bring a unique perspective to programming, emphasizing the intersection between technology and the humanities.\n\n`;
+  profile += `With my ${AboutMe.education.degree}, I bring a unique perspective to programming, emphasizing the intersection between technology and the humanities.\n\n`;
   profile += `Programming skills:\n`;
   AboutMe.programmingSkills.forEach((skill) => {
     profile += `- ${skill}\n`;
