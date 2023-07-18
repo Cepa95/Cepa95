@@ -77,5 +77,4 @@ console.log(generateProfile());
 
 
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2IyNGZiM2Y1MmMyYjBjODM3YTVmMjJlN2Y1ZWNlNzMwMDUwMzUwZCZjdD1z/TJGEDDEfnFdsOklnZe/giphy.gif" width ="20" height="20" >Oh no, a snake is eating my contributions
-![snake gif](https://github.com/Cepa95/Cepa95/blob/output/github-contribution-grid-snake.gif)
-
+![Cepa95](https://github.com/Cepa95/Cepa95/blob/output/github-contribution-grid-snake.svg)
