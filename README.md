@@ -5,8 +5,6 @@
 <img src="https://readme-jokes.vercel.app/api" alt="Jokes Card"/>
 </p>
 
-
-
 ## <img src="https://media3.giphy.com/media/XhiNOBobxFSP8YSgXK/giphy.gif?cid=ecf05e47umc1i85iaw7qiysiaga0rww981haxcdznuhoez3j&rid=giphy.gif&ct=s" width ="25"> About me
 ```
 const AboutMe = {
@@ -52,7 +50,6 @@ function generateProfile() {
 console.log(generateProfile());
 ```
     
-
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> Skills
 <p align="center">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="55"/>
@@ -68,13 +65,12 @@ console.log(generateProfile());
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="55" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="55"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="55"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="55"/>
 </p>
-
-
 
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTQ5NDRlMWQwMjI3NmU5NzA3NDM2YWVhZmEwMjE2NGRkY2NiYmI4YSZjdD1z/AEMgXCqNwfxvbNWVCt/giphy.gif" width ="25"> Links
 [![Portfolio](https://img.shields.io/badge/MY%20PORTFOLIO-black?)](https://github.com/Cepa95?tab=repositories)
-
+[![LinkedIn](https://img.shields.io/badge/%20LINKEDIN-blue?)](https://www.linkedin.com/in/josip-%C4%8Deprni%C4%87-a26518295/)
 
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2IyNGZiM2Y1MmMyYjBjODM3YTVmMjJlN2Y1ZWNlNzMwMDUwMzUwZCZjdD1z/TJGEDDEfnFdsOklnZe/giphy.gif" width ="20" height="20" >Oh no, a snake is eating my contributions
 ![Cepa95](https://github.com/Cepa95/Cepa95/blob/output/github-contribution-grid-snake.svg)
