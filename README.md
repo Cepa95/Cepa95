@@ -15,7 +15,7 @@ const AboutMe = {
     year: "3rd year"
   },
   programmingSkills: ["C", "C++", "Python", "JavaScript", "Java"],
-  additionalSkills: ["Microsoft SQL Server", "Vue.js","Node.js", "Django", "Spring Boot", "HTML","CSS"],
+  additionalSkills: ["Microsoft SQL Server", "Vue.js", "Node.js", "Django", "Spring Boot", "HTML", "CSS"],
   passion: "exploring different areas of computer science and learning new programming languages",
   interdisciplinaryApproach: true,
   interests: ["Technology", "Humanities", "Social and cultural challenges"],
@@ -25,29 +25,34 @@ const AboutMe = {
   }
 };
 
-function generateProfile() {
-  let profile = `Hello, world! 👋\n\n`;
-  profile += `My name is ${AboutMe.name}, and I'm currently in my ${AboutMe.education.year} of studying programming at the ${AboutMe.education.university}.\n`;
-  profile += `I'm passionate about ${AboutMe.passion}.\n`;
-  profile += `With my ${AboutMe.education.degree}, I bring a unique perspective to programming, emphasizing the intersection between technology and the humanities.\n\n`;
-  profile += `Programming skills:\n`;
-  AboutMe.programmingSkills.forEach((skill) => {
-    profile += `- ${skill}\n`;
-  });
-  profile += `\nAdditional skills:\n`;
-  AboutMe.additionalSkills.forEach((skill) => {
-    profile += `- ${skill}\n`;
-  });
-  profile += `\nProficiency level: ${AboutMe.proficiency.level}\n\n`;
-  profile += `Interests:\n`;
-  profile += AboutMe.interests.map((interest) => `- ${interest}`).join(",\n");
-  profile += `\n\nFeel free to reach out to me if you want to collaborate on any exciting projects or discuss interesting ideas!\n\n`;
-  profile += `Thank you for visiting my profile. Have a great day! 😄`;
+(function generateProfile() {
+  const { name, education, programmingSkills, additionalSkills, passion, interests, proficiency } = AboutMe;
 
-  return profile;
-}
+  const profile = `
+Hello, world! 👋
 
-console.log(generateProfile());
+My name is ${name}, and I'm currently in my ${education.year} of studying programming at ${education.university}.
+I'm passionate about ${passion}.
+With my ${education.degree}, I bring a unique perspective to programming, emphasizing the intersection between technology and humanities.
+
+Programming skills:
+${programmingSkills.map(skill => `- ${skill}`).join('\n')}
+
+Additional skills:
+${additionalSkills.map(skill => `- ${skill}`).join('\n')}
+
+Proficiency level: ${proficiency.level}
+
+Interests:
+${interests.map(interest => `- ${interest}`).join('\n')}
+
+Feel free to reach out to me if you want to collaborate on any exciting projects or discuss interesting ideas!
+
+Thank you for visiting my profile. Have a great day! 😄`;
+
+  console.log(profile); 
+})();
+
 ```
     
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> Skills
