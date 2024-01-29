@@ -25,7 +25,7 @@ const AboutMe = {
   }
 };
 
-(function generateProfile() {
+(() => {
   const { name, education, programmingSkills, additionalSkills, passion, interests, proficiency } = AboutMe;
 
   const profile = `
