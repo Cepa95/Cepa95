@@ -1,21 +1,19 @@
 # Hi there, I'm Josip! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Hubot+Sans&pause=1000&color=8AC926&width=435&lines=Random+programming+joke;Refresh+for+another+one)](https://git.io/typing-svg)  
-<p align="center">
-<img src="https://readme-jokes.vercel.app/api" alt="Jokes Card"/>
-</p>
-
 ## <img src="https://media3.giphy.com/media/XhiNOBobxFSP8YSgXK/giphy.gif?cid=ecf05e47umc1i85iaw7qiysiaga0rww981haxcdznuhoez3j&rid=giphy.gif&ct=s" width ="25"> About me
 ```
 const AboutMe = {
   name: "Josip",
   education: {
     university: "University of Split",
-    degree: "Master's degree in Philosophy and History",
-    year: "3rd year"
+    degrees: [
+      "Master's degree in Philosophy and History",
+      "Bachelor's degree in Computer Engineering"
+    ],
+    year: "4th year"
   },
-  programmingSkills: ["C", "C++", "Python", "JavaScript", "Java"],
-  additionalSkills: ["Microsoft SQL Server", "Vue.js", "Node.js", "Django", "Spring Boot", "HTML", "CSS"],
+  programmingSkills: ["C", "C++", "C#", "Python", "JavaScript", "Java"],
+  additionalSkills: ["Microsoft SQL Server", "Vue.js", "Node.js", "Angular", "Django", "Spring Boot", ".NET", "HTML", "CSS"],
   passion: "exploring different areas of computer science and learning new programming languages",
   interdisciplinaryApproach: true,
   interests: ["Technology", "Humanities", "Social and cultural challenges"],
@@ -33,7 +31,10 @@ Hello, world! 👋
 
 My name is ${name}, and I'm currently in my ${education.year} of studying programming at ${education.university}.
 I'm passionate about ${passion}.
-With my ${education.degree}, I bring a unique perspective to programming, emphasizing the intersection between technology and humanities.
+I hold the following degrees:
+${education.degrees.map(degree => `- ${degree}`).join('\n')}
+
+These degrees bring a unique perspective to programming, emphasizing the intersection between technology and humanities.
 
 Programming skills:
 ${programmingSkills.map(skill => `- ${skill}`).join('\n')}
@@ -49,7 +50,6 @@ ${interests.map(interest => `- ${interest}`).join('\n')}
 Feel free to reach out to me if you want to collaborate on any exciting projects or discuss interesting ideas!
 
 Thank you for visiting my profile. Have a great day! 😄`;
-
   console.log(profile); 
 })();
 
@@ -59,6 +59,8 @@ Thank you for visiting my profile. Have a great day! 😄`;
 <p align="center">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="55"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="55"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" height="55"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" height="55"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="55"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"  height="55"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="55"/>
@@ -67,6 +69,7 @@ Thank you for visiting my profile. Have a great day! 😄`;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="55"/>  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="55" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="55" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" height="55"/>  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="55"/>      
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="55" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="55" />
