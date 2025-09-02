@@ -10,27 +10,31 @@ const AboutMe = {
       "Master's degree in Philosophy and History",
       "Bachelor's degree in Computer Engineering"
     ],
-    year: "4th year"
+    year: "5th year"
   },
-  programmingSkills: ["C", "C++", "C#", "Python", "JavaScript", "Java"],
-  additionalSkills: ["Microsoft SQL Server", "Vue.js", "Node.js", "Angular", "Django", "Spring Boot", ".NET", "HTML", "CSS"],
+  programmingSkills: ["C", "C++", "C#", "Python", "JavaScript", "Java", "Erlang"],
+  additionalSkills: ["SQL", "Vue.js", "Node.js", "Angular", "Django", "Spring Boot", ".NET", "HTML", "CSS"],
+  currentWork: ["Java", "Erlang"],
   passion: "exploring different areas of computer science and learning new programming languages",
   interdisciplinaryApproach: true,
-  interests: ["Technology", "Humanities", "Social and cultural challenges"],
+  interests: ["Technology", "Humanities"],
   proficiency: {
-    languages: ["C", "C++", "JavaScript", "Java", "Python"],
+    languages: ["C", "C++", "JavaScript", "Java", "Python", "Erlang"],
     level: "intermediate"
   }
 };
 
 (() => {
-  const { name, education, programmingSkills, additionalSkills, passion, interests, proficiency } = AboutMe;
+  const { name, education, programmingSkills, additionalSkills, currentWork, passion, interests, proficiency } = AboutMe;
 
   const profile = `
 Hello, world! 👋
 
 My name is ${name}, and I'm currently in my ${education.year} of studying programming at ${education.university}.
 I'm passionate about ${passion}.
+
+Currently working with: ${currentWork.join(" and ")} 💻
+
 I hold the following degrees:
 ${education.degrees.map(degree => `- ${degree}`).join('\n')}
 
@@ -53,6 +57,7 @@ Thank you for visiting my profile. Have a great day! 😄`;
   console.log(profile); 
 })();
 
+
 ```
     
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"> Skills
@@ -61,7 +66,7 @@ Thank you for visiting my profile. Have a great day! 😄`;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="55"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" height="55"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" height="55"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="55"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/erlang/erlang-original-wordmark.svg" height="55" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"  height="55"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="55"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="55"/>
@@ -69,8 +74,8 @@ Thank you for visiting my profile. Have a great day! 😄`;
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="55"/>  
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="55" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="55" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" height="55"/>  
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="55"/>      
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" height="55"/> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"  height="55" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="55" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="55" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="55" />
